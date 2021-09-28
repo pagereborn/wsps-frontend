@@ -52,30 +52,6 @@ function IndexNavbar() {
       ) : null}
       <Navbar className={"fixed-top " + navbarColor} expand="lg" color="info">
         <Container>
-          <div className="navbar-translate">
-            <NavbarBrand
-              href="/index"
-              id="navbar-brand"
-            >
-              WSPS
-            </NavbarBrand>
-            <UncontrolledTooltip target="#navbar-brand">
-              Designed by WSPS. Coded by Steven
-            </UncontrolledTooltip>
-            <button
-              className="navbar-toggler navbar-toggler"
-              onClick={() => {
-                document.documentElement.classList.toggle("nav-open");
-                setCollapseOpen(!collapseOpen);
-              }}
-              aria-expanded={collapseOpen}
-              type="button"
-            >
-              <span className="navbar-toggler-bar top-bar"></span>
-              <span className="navbar-toggler-bar middle-bar"></span>
-              <span className="navbar-toggler-bar bottom-bar"></span>
-            </button>
-          </div>
           <Collapse
             className="justify-content-end"
             isOpen={collapseOpen}
@@ -107,45 +83,6 @@ function IndexNavbar() {
                 >
                   <img className="nav-button" src={require("assets/img/faq.png").default}></img>
                 </NavLink>
-              </NavItem>
-              <NavItem>
-                <NavLink
-                  href="https://twitter.com/WS_Punk_S"
-                  target="_blank"
-                  id="twitter-tooltip"
-                >
-                  <i className="fab fa-twitter"></i>
-                  <p className="d-lg-none d-xl-none">Twitter</p>
-                </NavLink>
-                <UncontrolledTooltip target="#twitter-tooltip">
-                  Follow us on Twitter
-                </UncontrolledTooltip>
-              </NavItem>
-              <NavItem>
-                <NavLink
-                  href="https://discord.io/wsps"
-                  target="_blank"
-                  id="discord-tooltip"
-                >
-                  <i className="fab fa-discord"></i>
-                  <p className="d-lg-none d-xl-none">Discord</p>
-                </NavLink>
-                <UncontrolledTooltip target="#discord-tooltip">
-                  Join us on Discord
-                </UncontrolledTooltip>
-              </NavItem>
-              <NavItem>
-                <NavLink
-                  href="https://instagram.com/wallstreetpunks"
-                  target="_blank"
-                  id="instagram-tooltip"
-                >
-                  <i className="fab fa-instagram"></i>
-                  <p className="d-lg-none d-xl-none">Instagram</p>
-                </NavLink>
-                <UncontrolledTooltip target="#instagram-tooltip">
-                  Follow us on Instagram
-                </UncontrolledTooltip>
               </NavItem>
             </Nav>
           </Collapse>
