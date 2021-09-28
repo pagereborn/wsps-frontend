@@ -82,7 +82,6 @@ function Roadmap() {
           </Row>
           {*/}
           <div>
-            <p>
             <h2>Treasury Fund: </h2>
             <p>
             10% for our team to support other artists
@@ -90,7 +89,9 @@ function Roadmap() {
             <p>
             20% to support featured artist, JOEIAN, in collaboration with WallStreetPunkS 
             </p>
-            </p>
+            <p>20% ᴏғ ᴛʜᴇ ᴛʀᴇᴀsᴜʀʏ ғʀᴏᴍ ᴛʜᴇ ᴍɪɴᴛɪɴɢ ᴏғ ᴛʜᴇ sᴇᴄᴏɴᴅ ᴘʜᴀsᴇ ᴡɪʟʟ ʙᴇ ʀᴇᴅɪsᴛʀɪʙᴜᴛᴇᴅ ᴛᴏ ᴀʟʟ ᴛʜᴏsᴇ ᴛʜᴀᴛ ᴍɪɴᴛᴇᴅ ғʀᴏᴍ ᴛʜᴇ ғɪʀsᴛ ᴄᴏʟʟᴇᴄᴛɪᴏɴ.</p>
+
+            <p>ᴇᴠᴇʀʏ ᴍᴏɴᴛʜ, 20% ғʀᴏᴍ ʀᴇsᴇʟʟ ʀᴏʏᴀʟᴛɪᴇs ᴡɪʟʟ ʙᴇ ᴅɪsᴛʀɪʙᴜᴛᴇᴅ ᴛᴏ ᴛʜᴏsᴇ ᴡʜᴏ ʜᴏʟᴅ ᴀɴ ɴғᴛ ғʀᴏᴍ ᴏᴜʀ ᴄᴏʟʟᴇᴄᴛɪᴏɴ ғᴏʀ ᴍᴏʀᴇ ᴛʜᴀɴ 30 ᴅᴀʏs.</p>
             </div>
         </Container>
       </div>

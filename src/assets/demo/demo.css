@@ -521,4 +521,10 @@
   .section-navbars .navbar-collapse {
     display: none !important;
   }
+  .sidebar-collapse .navbar-collapse:before {
+    background: black !important;
+  }
+  .sidebar-collapse .navbar-collapse{
+    width: 200px !important;
+  }
 }
