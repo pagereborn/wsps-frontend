@@ -134,6 +134,19 @@ function IndexNavbar() {
                   Join us on Discord
                 </UncontrolledTooltip>
               </NavItem>
+              <NavItem>
+                <NavLink
+                  href="https://instagram.com/wallstreetpunks"
+                  target="_blank"
+                  id="instagram-tooltip"
+                >
+                  <i className="fab fa-instagram"></i>
+                  <p className="d-lg-none d-xl-none">Instagram</p>
+                </NavLink>
+                <UncontrolledTooltip target="#instagram-tooltip">
+                  Follow us on Instagram
+                </UncontrolledTooltip>
+              </NavItem>
             </Nav>
           </Collapse>
         </Container>
