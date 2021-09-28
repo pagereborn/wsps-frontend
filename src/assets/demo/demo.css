@@ -473,14 +473,21 @@
 
 .twitter-logo {
   max-width: 70px;
-  top: 20px;
+  top: 80px;
   position: relative;
   margin: 10px;
 }
 
 .discord-logo {
   max-width: 70px;
-  top: 20px;
+  top: 80px;
+  position: relative;
+  margin: 10px;
+}
+
+.instagram-logo {
+  max-width: 70px;
+  top: 80px;
   position: relative;
   margin: 10px;
 }

@@ -26,7 +26,7 @@ function IndexHeader() {
         pageHeader.current.style.transform =
           "translate3d(0," + windowScrollTop + "px,0)";
       };
-      window.addEventListener("scroll", updateScroll);
+      //window.addEventListener("scroll", updateScroll);
       return function cleanup() {
         window.removeEventListener("scroll", updateScroll);
       };
@@ -45,22 +45,29 @@ function IndexHeader() {
           ref={pageHeader}
         ></div>
         <Container>
-          <h6 className="category category-absolute">
+          <div className="category category-absolute">
             <a href="https://discord.io/wsps" target="_blank">
               <img
                 alt="..."
                 className="discord-logo"
-                src={require("assets/img/discord_logo.jpg").default}
+                src={require("assets/img/dis_logo.png").default}
               ></img>
             </a>
             <a href="https://twitter.com/WS_Punk_S"target="_blank">
               <img
                 alt="..."
                 className="twitter-logo"
-                src={require("assets/img/twitter_logo.jpg").default}
+                src={require("assets/img/twi_logo.png").default}
               ></img>
             </a>
-          </h6>
+            <a href="https://instagram.com/wallstreetpunks" target="_blank">
+              <img
+                alt="..."
+                className="instagram-logo"
+                src={require("assets/img/ins_logo.png").default}
+              ></img>
+            </a>
+          </div>
         </Container>
       </div>
     </>
