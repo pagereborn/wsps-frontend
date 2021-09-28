@@ -492,6 +492,11 @@
   margin: 10px;
 }
 
+.nav-button{
+  max-width: 100px;
+  max-height: 20px;
+}
+
 .section-javascript .title {
   margin-bottom: 0;
 }

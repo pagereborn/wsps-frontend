@@ -92,7 +92,7 @@ function IndexNavbar() {
                       .scrollIntoView();
                   }}
                 >
-                  <p>ROADMAP</p>
+                  <img className="nav-button" src={require("assets/img/roadmap.png").default}></img>
                 </NavLink>
               </NavItem>
               <NavItem>
@@ -105,7 +105,7 @@ function IndexNavbar() {
                       .scrollIntoView();
                   }}
                 >
-                  <p>FAQ</p>
+                  <img className="nav-button" src={require("assets/img/faq.png").default}></img>
                 </NavLink>
               </NavItem>
               <NavItem>
