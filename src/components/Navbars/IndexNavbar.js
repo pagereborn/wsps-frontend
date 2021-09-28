@@ -52,6 +52,21 @@ function IndexNavbar() {
       ) : null}
       <Navbar className={"fixed-top " + navbarColor} expand="lg" color="info">
         <Container>
+          <div className="navbar-translate">
+            <button
+              className="navbar-toggler navbar-toggler"
+              onClick={() => {
+                document.documentElement.classList.toggle("nav-open");
+                setCollapseOpen(!collapseOpen);
+              }}
+              aria-expanded={collapseOpen}
+              type="button"
+            >
+              <span className="navbar-toggler-bar top-bar"></span>
+              <span className="navbar-toggler-bar middle-bar"></span>
+              <span className="navbar-toggler-bar bottom-bar"></span>
+            </button>
+          </div>
           <Collapse
             className="justify-content-end"
             isOpen={collapseOpen}

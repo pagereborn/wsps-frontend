@@ -532,11 +532,17 @@
 @media screen and (max-width: 991px) {
   .section-navbars .navbar-collapse {
     display: none !important;
+    
   }
   .sidebar-collapse .navbar-collapse:before {
     background: black !important;
   }
   .sidebar-collapse .navbar-collapse{
     width: 200px !important;
+    
   }
+  .sidebar-collapse .navbar .navbar-nav {
+    margin-top: 30px !important;
+  }
+  
 }
