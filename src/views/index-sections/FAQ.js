@@ -14,8 +14,7 @@ const data = {
       },
       {
           title: "𝙒𝙝𝙚𝙣 𝙬𝙞𝙡𝙡 𝙄 𝙜𝙚𝙩 𝙢𝙮 𝙒𝙖𝙡𝙡𝙎𝙩𝙧𝙚𝙚𝙩𝙋𝙪𝙣𝙠𝙎 𝙉𝙁𝙏 𝙖𝙛𝙩𝙚𝙧 𝙩𝙝𝙚 𝙢𝙞𝙣𝙩?",
-          content:
-              "Your WallStreetPunkS NFT will be sent to your wallet right after minting which might take a few minutes.",
+          content: "Your WallStreetPunkS NFT will be sent to your wallet right after minting which might take a few minutes.",
       },
       {
           title: "𝙒𝙝𝙖𝙩 𝙎𝙤𝙡𝙖𝙣𝙖 𝙒𝙖𝙡𝙡𝙚𝙩𝙨 𝙘𝙖𝙣 𝙄 𝙪𝙨𝙚?",
@@ -75,7 +74,7 @@ function FAQ() {
     <>
       <div className="section section-faq" data-background-color="black" id="faq-section">
         <div className="space-50"></div>
-        <Container className="text-center">
+        <Container>
           <Row>
           <div>
             <h2>Frequently Asked Questions</h2>

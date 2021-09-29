@@ -26,6 +26,7 @@ import Examples from "./index-sections/Examples.js";
 import Download from "./index-sections/Download.js";
 import FAQ from "./index-sections/FAQ.js";
 import Roadmap from "./index-sections/Roadmap.js";
+import Story from "./index-sections/Story.js";
 
 function Index() {
   React.useEffect(() => {
@@ -62,6 +63,7 @@ function Index() {
           <Download />
           */
         }
+          <Story/>
           <Roadmap/>
           <FAQ/>
         </div>

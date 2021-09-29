@@ -73,6 +73,19 @@ function IndexNavbar() {
             navbar
           >
             <Nav navbar>
+            <NavItem>
+                <NavLink
+                  href="#pablo"
+                  onClick={(e) => {
+                    e.preventDefault();
+                    document
+                      .getElementById("story-section")
+                      .scrollIntoView();
+                  }}
+                >
+                  <img className="nav-button" src={require("assets/img/story.png").default}></img>
+                </NavLink>
+              </NavItem>
               <NavItem>
                 <NavLink
                   href="#pablo"
