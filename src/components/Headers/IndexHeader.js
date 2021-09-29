@@ -4,7 +4,7 @@ import React from "react";
 // reactstrap components
 import { Container } from "reactstrap";
 // core components
-import mobileBackground from 'assets/img/mobile-bg.gif'
+import mobileBackground from 'assets/img/mobile-bg1.gif'
 import wideBackground from 'assets/img/wide-background.gif'
 import {useMediaQuery} from 'react-responsive';
 
