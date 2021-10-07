@@ -73,7 +73,7 @@ function FAQ() {
         <Container>
           <Row>
           <div>
-            <h2>Frequently Asked Questions</h2>
+            <h2 className="text-center">Frequently Asked Questions</h2>
             <Faq
                 data={data}
                 styles={styles}

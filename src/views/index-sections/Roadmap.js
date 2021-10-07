@@ -8,19 +8,19 @@ import bg from 'assets/img/br4.jpg'
 
 const items = [
               {
-                title: "August 2021",
+                title: "25%",
                 cardTitle: "𝕀ℕ𝕋ℝ𝕆",
                 cardSubtitle:"WallStreetPunkS Introduction",
-                cardDetailedText: "WallStreetPunkS started in August 2021. Our project consists of 9,000 algorithmically generated collectible avatars based around 6 characters. We a team based in New York. Our goal is to help artists start their NFT journey and build their reputation. This is our first feature artist project. Our project artist, JOEIAN, is an illustrator based in Tokyo, Japan. The characters of WallStreetPunkS live in a futuristic cyberpunk world. In 2077, we follow our 6 characters, Crypto Maxi, Entrepreneur Doge, Social Arbitrager, The Suit, The Android (Ai), and The Financial Regulator. ",
+                cardDetailedText: "WallStreetPunkS started in August 2021. Our project consists of 9,000 algorithmically generated collectible avatars based around 6 characters. We are a team based in New York. Our goal is to help artists start their NFT journey and build their reputation. This is our first feature artist project. Our project artist, JOEIAN, is an illustrator based in Tokyo, Japan. The characters of WallStreetPunkS live in a futuristic cyberpunk world. In 2089, we follow our 6 characters, Crypto Maxi, Entrepreneur Doge, Social Arbitrager, The Suit, The Android (Ai), and The Financial Regulator. ",
               },
               {
-                title: "October 2021",
+                title: "50%",
                 cardTitle: "𝔼𝔸ℝ𝕃𝕐 𝕆ℂ𝕋𝕆𝔹𝔼ℝ",
                 cardSubtitle:"WallStreetPunkS First Drop: PUNK DROP VOL. 1",
                 cardDetailedText: "First 3 Characters: Crypto Maxi, Entrepreneur Doge, and Social Arbitrager",
               },
               {
-                title: "November 2021",
+                title: "75%",
                 cardTitle: "𝔼𝔸ℝ𝕃𝕐 ℕ𝕆𝕍𝔼𝕄𝔹𝔼ℝ",
                 cardSubtitle:"WallStreetPunkS Second Drop: PUNK DROP VOL. 2",
                 cardDetailedText: ["Following 3 Characters: The Suit, The Android (Ai), and The Financial Regulator",
@@ -63,6 +63,7 @@ function Roadmap() {
           </div>
           </Row>
           <div>
+            <h1 className="text-center">𝘽𝙖𝙩𝙩𝙡𝙚-𝙍𝙤𝙮𝙖𝙡𝙩𝙮-𝙋𝙧𝙤𝙜𝙧𝙖𝙢</h1>
             <img src={bg}></img>
             </div>
         </Container>
