@@ -20,21 +20,24 @@ function Story() {
           </p>
             </div>
             <Row>
-              <Col>
+              <Col sm="4">
+                <h3 className="text-center">Social Arbitrager</h3>
               <img
                   alt="..."
                   className="rounded img-raised"
                   src={require("assets/img/chara01.gif").default}
                 ></img>
               </Col>
-              <Col>
+              <Col sm="4">
+              <h3 className="text-center">Crypto Maxi</h3>
               <img
                   alt="..."
                   className="rounded img-raised"
                   src={require("assets/img/chara02.gif").default}
                 ></img>
               </Col>
-              <Col>
+              <Col sm="4">
+              <h3 className="text-center">Entrepreneur Doge</h3>
               <img
                   alt="..."
                   className="rounded img-raised"
