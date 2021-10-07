@@ -49,7 +49,7 @@ function IndexHeader() {
           ref={pageHeader}
         ></div>
         <Container>
-        <div className="space-50"></div>
+        <div className="space-25"></div>
           <Countdown
               date={"2021-10-13T22:00:00.000+00:00"}
               renderer={props => <div><h2 style={{'fontWeight':'bold'}}>Public Sale 10/13 10PM UTC(6PM EST)</h2><p style={{'fontWeight':'bold'}}>{props.formatted.days} day(s) {props.formatted.hours} hour(s) {props.formatted.minutes} minute(s) {props.formatted.seconds} second(s)</p></div>}
