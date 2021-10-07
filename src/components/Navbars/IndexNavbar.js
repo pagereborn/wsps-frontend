@@ -112,6 +112,19 @@ function IndexNavbar() {
                   <img className="nav-button" src={require("assets/img/faq.png").default}></img>
                 </NavLink>
               </NavItem>
+              <NavItem>
+                <NavLink
+                  href="#pablo"
+                  onClick={(e) => {
+                    e.preventDefault();
+                    document
+                      .getElementById("team-section")
+                      .scrollIntoView();
+                  }}
+                >
+                  <img className="nav-button" src={require("assets/img/team.png").default}></img>
+                </NavLink>
+              </NavItem>
             </Nav>
           </Collapse>
         </Container>
