@@ -7,6 +7,7 @@ import { Container } from "reactstrap";
 import mobileBackground from 'assets/img/mobile-bg1.gif'
 import wideBackground from 'assets/img/wide-background2.gif'
 import {useMediaQuery} from 'react-responsive';
+import Countdown from 'react-countdown';
 
 function IndexHeader() {
   const isDesktopOrLaptop = useMediaQuery({
@@ -45,6 +46,11 @@ function IndexHeader() {
           ref={pageHeader}
         ></div>
         <Container>
+          <div></div>
+          <Countdown
+              date={new Date("10-13-2021 22:00:00 UTC")}
+              renderer={props => <div><h2>Public Sale 10/13 10PM UTC(6PM EST)</h2><p>{props.days} day(s) {props.hours} hour(s) {props.minutes} minute(s) {props.seconds} second(s)</p></div>}
+          />
           <div className="category category-absolute">
             <a href="https://discord.io/wsps" target="_blank">
               <img
