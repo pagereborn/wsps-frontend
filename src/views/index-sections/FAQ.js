@@ -22,11 +22,11 @@ const data = {
       },
       {
           title: "𝙒𝙝𝙚𝙣 𝙬𝙞𝙡𝙡 𝙩𝙝𝙚 𝙡𝙖𝙪𝙣𝙘𝙝 𝙗𝙚?",
-          content: 'We will be launching in early October, check back soon for the exact date.',
+          content: 'OCT 13',
       },
       {
         title: "𝙃𝙤𝙬 𝙢𝙪𝙘𝙝 𝙙𝙤𝙚𝙨 𝙞𝙩 𝙘𝙤𝙨𝙩 𝙩𝙤 𝙢𝙞𝙣𝙩 𝙖 𝙒𝙖𝙡𝙡𝙎𝙩𝙧𝙚𝙚𝙩𝙋𝙪𝙣𝙠𝙎 𝙉𝙁𝙏?",
-        content: 'We are aware of how much the value of SOL is fluctuating and are taking this into account to determine what the cost of minting will be. We will have a definite mint cost for you closer to the launch.',
+        content: '1.25 Sol',
       },
       {
           title: "𝙄𝙨 𝙩𝙝𝙚𝙧𝙚 𝙖 𝙥𝙧𝙚-𝙨𝙖𝙡𝙚?",
@@ -35,10 +35,6 @@ const data = {
       {
         title: "𝘿𝙤 𝙮𝙤𝙪 𝙝𝙖𝙫𝙚 𝙧𝙖𝙧𝙞𝙩𝙮 𝙨𝙮𝙨𝙩𝙚𝙢?",
         content: 'Yes, we do because rarity is important among our NFTs, there will also be a rarity chart on our website. ',
-      },
-      {
-      title: "𝘾𝙖𝙣 𝙄 𝙖𝙥𝙥𝙡𝙮 𝙩𝙤 𝙗𝙚 𝙖𝙣 𝙖𝙧𝙩𝙞𝙨𝙩?",
-      content: 'Yes! If you are interested in creating NFTs with us, please send an PM to our official Twitter account.',
       },
   ],
 };

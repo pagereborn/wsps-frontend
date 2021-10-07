@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import { Button, Container, Row } from "reactstrap";
 import { Chrono } from "react-chrono";
 // core components
+import bg from 'assets/img/br4.jpg'
 
 const items = [
               {
@@ -61,37 +62,8 @@ function Roadmap() {
           />
           </div>
           </Row>
-          <h1>𝕎𝕒𝕝𝕝𝕊𝕥𝕣𝕖𝕖𝕥ℙ𝕦𝕟𝕜𝕊 ℝ𝕆𝔸𝔻𝕄𝔸ℙ 𝟚𝟘𝟚𝟚</h1>
-          {/*}
-          <Row>
-            
           <div>
-          {/*}
-          <Chrono
-            items={year2022Items}
-            mode="VERTICAL"
-            theme={{ 
-              primary: "red",
-              secondary: "grey",
-              cardBgColor: "black",
-              cardForeColor: "violet",
-              titleColor: "white"
-            }}
-          />
-          </div>
-          </Row>
-          {*/}
-          <div>
-            <h2>Treasury Fund: </h2>
-            <p>
-            10% for our team to support other artists
-            </p>
-            <p>
-            20% to support featured artist, JOEIAN, in collaboration with WallStreetPunkS 
-            </p>
-            <p>20% ᴏғ ᴛʜᴇ ᴛʀᴇᴀsᴜʀʏ ғʀᴏᴍ ᴛʜᴇ ᴍɪɴᴛɪɴɢ ᴏғ ᴛʜᴇ sᴇᴄᴏɴᴅ ᴘʜᴀsᴇ ᴡɪʟʟ ʙᴇ ʀᴇᴅɪsᴛʀɪʙᴜᴛᴇᴅ ᴛᴏ ᴀʟʟ ᴛʜᴏsᴇ ᴛʜᴀᴛ ᴍɪɴᴛᴇᴅ ғʀᴏᴍ ᴛʜᴇ ғɪʀsᴛ ᴄᴏʟʟᴇᴄᴛɪᴏɴ.</p>
-
-            <p>ᴇᴠᴇʀʏ ᴍᴏɴᴛʜ, 20% ғʀᴏᴍ ʀᴇsᴇʟʟ ʀᴏʏᴀʟᴛɪᴇs ᴡɪʟʟ ʙᴇ ᴅɪsᴛʀɪʙᴜᴛᴇᴅ ᴛᴏ ᴛʜᴏsᴇ ᴡʜᴏ ʜᴏʟᴅ ᴀɴ ɴғᴛ ғʀᴏᴍ ᴏᴜʀ ᴄᴏʟʟᴇᴄᴛɪᴏɴ ғᴏʀ ᴍᴏʀᴇ ᴛʜᴀɴ 30 ᴅᴀʏs.</p>
+            <img src={bg}></img>
             </div>
         </Container>
       </div>

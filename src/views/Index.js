@@ -28,6 +28,7 @@ import FAQ from "./index-sections/FAQ.js";
 import Roadmap from "./index-sections/Roadmap.js";
 import Story from "./index-sections/Story.js";
 import Rarity from "./index-sections/Rarity.js";
+import Team from "./index-sections/Team.js";
 
 function Index() {
   React.useEffect(() => {
@@ -47,8 +48,8 @@ function Index() {
       <div className="wrapper">
         <IndexHeader />
         <div className="main">
-          {
-          /*<Images />
+          {/*
+          <Images />
           <BasicElements />
           <Navbars />
           <Tabs />
@@ -62,12 +63,12 @@ function Index() {
           <SignUp />
           <Examples />
           <Download />
-          */
-        }
+          */}
           <Story/>
           <Rarity/>
           <Roadmap/>
           <FAQ/>
+          <Team/>
         </div>
         <DarkFooter />
       </div>

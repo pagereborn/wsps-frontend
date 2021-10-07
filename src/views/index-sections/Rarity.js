@@ -51,7 +51,7 @@ function Rarity() {
       <div className="section section-rarity" data-background-color="black" id="rarity-section">
         <div className="space-50"></div>
         <Container className="text-center">
-        <h1>Rarity Collectible</h1>
+        <h1>Rare Collectible</h1>
           <div>
           <Slider {...settings}>
           <div>
