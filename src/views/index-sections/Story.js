@@ -26,7 +26,7 @@ function Story() {
                   className="rounded img-raised"
                   src={require("assets/img/chara01.gif").default}
                 ></img>
-                <h3 className="text-center" style={{'font-family':'monaco'}}>Social Arbitrager</h3>
+                <h3 className="text-center" style={{'fontFamily':'monaco'}}>Social Arbitrager</h3>
               </Col>
               <Col sm="4" className="text-center">
               
@@ -35,7 +35,7 @@ function Story() {
                   className="rounded img-raised"
                   src={require("assets/img/chara02.gif").default}
                 ></img>
-                <h3 className="text-center" style={{'font-family':'monaco'}}>Crypto Maxi</h3>
+                <h3 className="text-center" style={{'fontFamily':'monaco'}}>Crypto Maxi</h3>
               </Col>
               <Col sm="4" className="text-center">
               
@@ -44,7 +44,7 @@ function Story() {
                   className="rounded img-raised"
                   src={require("assets/img/chara03.gif").default}
                 ></img>
-                <h3 className="text-center" style={{'font-family':'monaco'}}>Entrepreneur Doge</h3>
+                <h3 className="text-center" style={{'fontFamily':'monaco'}}>Entrepreneur Doge</h3>
               </Col>
             </Row>
         </Container>

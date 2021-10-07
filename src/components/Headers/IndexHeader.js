@@ -49,7 +49,7 @@ function IndexHeader() {
         <div className="space-50"></div>
           <Countdown
               date={new Date("10-13-2021 22:00:00 UTC")}
-              renderer={props => <div><h2 style={{'font-weight':'bold'}}>Public Sale 10/13 10PM UTC(6PM EST)</h2><p style={{'font-weight':'bold'}}>{props.days} day(s) {props.hours} hour(s) {props.minutes} minute(s) {props.seconds} second(s)</p></div>}
+              renderer={props => <div><h2 style={{'fontWeight':'bold'}}>Public Sale 10/13 10PM UTC(6PM EST)</h2><p style={{'fontWeight':'bold'}}>{props.days} day(s) {props.hours} hour(s) {props.minutes} minute(s) {props.seconds} second(s)</p></div>}
           />
           <div className="category category-absolute">
             <a href="https://discord.io/wsps" target="_blank">
