@@ -21,13 +21,12 @@ function Story() {
             </div>
             <Row>
               <Col sm="4" className="text-center">
-                
               <img
                   alt="Social Arbitrager"
                   className="rounded img-raised"
                   src={require("assets/img/chara01.gif").default}
                 ></img>
-                <h3 className="text-center">Social Arbitrager</h3>
+                <h3 className="text-center" style={{'font-family':'monaco'}}>Social Arbitrager</h3>
               </Col>
               <Col sm="4" className="text-center">
               
@@ -36,7 +35,7 @@ function Story() {
                   className="rounded img-raised"
                   src={require("assets/img/chara02.gif").default}
                 ></img>
-                <h3 className="text-center">Crypto Maxi</h3>
+                <h3 className="text-center" style={{'font-family':'monaco'}}>Crypto Maxi</h3>
               </Col>
               <Col sm="4" className="text-center">
               
@@ -45,7 +44,7 @@ function Story() {
                   className="rounded img-raised"
                   src={require("assets/img/chara03.gif").default}
                 ></img>
-                <h3 className="text-center">Entrepreneur Doge</h3>
+                <h3 className="text-center" style={{'font-family':'monaco'}}>Entrepreneur Doge</h3>
               </Col>
             </Row>
         </Container>

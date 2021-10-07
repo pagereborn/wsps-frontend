@@ -47,7 +47,7 @@ function Index() {
       <IndexNavbar />
       <div className="wrapper">
         <IndexHeader />
-        <div className="main">
+        <div>
           {/*
           <Images />
           <BasicElements />

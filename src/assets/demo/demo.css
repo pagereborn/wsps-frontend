@@ -529,6 +529,10 @@
   padding-bottom: 0;
 }
 
+body{
+  font-family: 'Roboto', sans-serif !important;
+}
+
 @media screen and (max-width: 991px) {
   .section-navbars .navbar-collapse {
     display: none !important;
@@ -545,4 +549,17 @@
     margin-top: 30px !important;
   }
   
+}
+
+.faq-row-wrapper .row-title-text {
+    margin-left: 5px !important;
+    font-family: 'Verdana';
+}
+.faq-row-wrapper .row-content-text{
+  margin-left: 10px !important;
+  font-family: 'Verdana';
+}
+
+p{
+  font-family: 'Verdana';
 }
