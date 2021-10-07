@@ -30,7 +30,7 @@ function IndexHeader() {
       return function cleanup() {
         window.removeEventListener("scroll", updateScroll);
       };
-    }r
+    }
   });
 
   return (
