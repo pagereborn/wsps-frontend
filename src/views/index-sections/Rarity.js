@@ -39,12 +39,14 @@ function Rarity() {
   const settings = {
     dots: false,
     infinite: true,
-    speed: 2000,
+    speed: 3000,
     slidesToShow: 6,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 2000,
+    autoplaySpeed: 3000,
     cssEase: "linear",
+    swipeToSlide: true,
+    arrows: false,
     responsive: [
       {
         breakpoint: 1024,
