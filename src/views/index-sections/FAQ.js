@@ -25,7 +25,7 @@ const data = {
           content: "OCT 13 2021",
       },
       {
-        title: "How much does it cost to minte a WallStreetPunkS NFT?",
+        title: "How much does it cost to mint a WallStreetPunkS NFT?",
         content: "1.25 Sol",
       },
       {
