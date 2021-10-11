@@ -98,7 +98,7 @@
 }
 
 .space-25 {
-  height: 25px;
+  height: 10px;
   display: block;
 }
 
@@ -567,4 +567,18 @@ body{
 
 p{
   font-family: 'Verdana';
+}
+
+table {
+    margin: 0 auto; /* or margin: 0 auto 0 auto */
+    border: 1px solid rgb(144,203,253);
+    width:30%;
+    border-radius: 10px !important;
+    border-collapse:separate;
+}
+td {
+  text-align: center;
+  padding: 9px;
+  font-size: 24px;
+  font-weight: bolder;
 }

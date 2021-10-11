@@ -2,7 +2,7 @@
 import React from "react";
 
 // reactstrap components
-import { Container } from "reactstrap";
+import { Container, Row, Col } from "reactstrap";
 // core components
 import mobileBackground from 'assets/img/mobile-bg1.gif'
 import wideBackground from 'assets/img/wide-background2.gif'
@@ -52,7 +52,25 @@ function IndexHeader() {
         <div className="space-25"></div>
           <Countdown
               date={"2021-10-13T22:00:00.000+00:00"}
-              renderer={props => <div><h2 style={{'fontWeight':'bold'}}>Public Sale 10/13 10PM UTC(6PM EST)</h2><p style={{'fontWeight':'bold'}}>{props.formatted.days} day(s) {props.formatted.hours} hour(s) {props.formatted.minutes} minute(s) {props.formatted.seconds} second(s)</p></div>}
+              renderer={props => <div style={{'text-align':'center', 'width':'100%', 'display':'block', 'margin-right': 'auto', 'margin-left': 'auto'}}>
+                    <div><p style={{'fontWeight':'bold', 'fontSize':'24px', 'margin':'0px'}}>Public Sale Count Down</p></div>
+                  
+                   <div><p style={{'fontWeight':'bold', 'fontSize':'24px', 'margin-bottom':'26px'}}>10/13 10PM UTC(6PM EST)</p></div>
+                <table>
+                  <tr>
+                  <td className="countDownTopItem">{props.formatted.days} </td> 
+                  <td className="countDownTopItem">{props.formatted.hours}</td> 
+                  <td className="countDownTopItem">{props.formatted.minutes}</td> 
+                  <td className="countDownTopItem">{props.formatted.seconds}</td>
+                  </tr>
+                  <tr>
+                  <td className="countDownTopItem">day </td> 
+                  <td className="countDownTopItem">hour</td> 
+                  <td className="countDownTopItem">min</td> 
+                  <td className="countDownTopItem">sec</td>
+                  </tr>
+                  </table>
+                  </div>}
           />
           <div className="category category-absolute">
             <a href="https://discord.io/wsps" target="_blank">
