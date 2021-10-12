@@ -17,7 +17,7 @@ const data = {
           content: "Your WallStreetPunkS NFT will be sent to your wallet right after minting which might take a few minutes.",
       },
       {
-          title: "What Soana Wallets can I use?",
+          title: "What Solana Wallets can I use?",
           content: "We will be using Phantom wallet for the website connection.",
       },
       {
