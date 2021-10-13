@@ -22,11 +22,11 @@ function Story() {
             <Row>
               <Col sm="4" className="text-center">
               <img
-                  alt="Social Arbitrager"
+                  alt="Social Arbitrator "
                   className="rounded img-raised"
                   src={require("assets/img/chara01.gif").default}
                 ></img>
-                <h3 className="text-center" style={{'fontFamily':'monaco'}}>Social Arbitrager</h3>
+                <h3 className="text-center" style={{'fontFamily':'monaco'}}>Social Arbitrator </h3>
               </Col>
               <Col sm="4" className="text-center">
               
