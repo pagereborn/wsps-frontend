@@ -125,6 +125,13 @@ function IndexNavbar() {
                   <img className="nav-button" src={require("assets/img/team.png").default}></img>
                 </NavLink>
               </NavItem>
+              <NavItem>
+                <NavLink
+                  href="https://mint.wsps.io/"
+                >
+                  <img className="nav-button" src={require("assets/img/mint_button.png").default}></img>
+                </NavLink>
+              </NavItem>
             </Nav>
           </Collapse>
         </Container>
