@@ -127,7 +127,8 @@ function IndexNavbar() {
               </NavItem>
               <NavItem>
                 <NavLink
-                  href="https://mint.wsps.io/"
+                  href="#pablo"
+                  disabled
                 >
                   <img className="nav-button" src={require("assets/img/mint_button.png").default}></img>
                 </NavLink>

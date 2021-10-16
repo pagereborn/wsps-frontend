@@ -50,7 +50,7 @@ function IndexHeader() {
         ></div>
         <Container>
         <div className="space-25"></div>
-          <Countdown
+          {/*<Countdown
               date={"2021-10-13T22:00:00.000+00:00"}
               renderer={props => <div style={{'text-align':'center', 'width':'100%', 'display':'block', 'margin-right': 'auto', 'margin-left': 'auto'}}>
                     <div><p style={{'fontWeight':'bold', 'fontSize':'24px', 'margin':'0px'}}>Public Sale Count Down</p></div>
@@ -71,7 +71,7 @@ function IndexHeader() {
                   </tr>
                   </table>
                   </div>}
-          />
+          />*/}
           <div className="category category-absolute">
             <a href="https://discord.io/wsps" target="_blank">
               <img
